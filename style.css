@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+* {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-weight: bold;
+    color: turquoise;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    background-color: turquoise;
+    color: white;
+
+}
+
+p, .nav-link {
+    font-family: 'Roboto', sans-serif; 
+}
