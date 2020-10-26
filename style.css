@@ -13,7 +13,7 @@ h1 {
     color: turquoise;
 }
 
-.navbar-brand {
+.navbar-light .navbar-brand {
     font-weight: bold;
     background-color: turquoise;
     color: white;
