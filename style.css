@@ -38,3 +38,9 @@ p, .nav-link, label, input {
 #formGroupExampleInput3 {
     height: calc(1.5em + .75rem + 75px);
 }
+
+.footer {
+    text-align: center;
+    color: teal;
+    background-color: rgb(48, 48, 48);
+}
