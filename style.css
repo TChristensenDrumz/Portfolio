@@ -20,7 +20,7 @@ h1 {
 
 }
 
-p, .nav-link {
+p, .nav-link, label, input {
     font-family: 'Roboto', sans-serif; 
 }
 
