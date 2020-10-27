@@ -44,3 +44,8 @@ p, .nav-link, label, input {
     color: teal;
     background-color: rgb(48, 48, 48);
 }
+
+.filler {
+    margin-bottom: 200px;
+    padding-bottom: 200px;
+}
