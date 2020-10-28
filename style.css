@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Merriweather', serif;
 }
 
-h1, h3 {
+h1 {
     font-weight: bold;
     color: turquoise;
 }
@@ -48,4 +48,9 @@ p, .nav-link, label, input {
 .filler {
     margin-bottom: 200px;
     padding-bottom: 200px;
+}
+
+.turquoise {
+    color: turquoise;
+    font-weight: bold;
 }
