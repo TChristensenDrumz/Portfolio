@@ -6,7 +6,7 @@ This project is a Portfolio/About Me site built using a Bootstrap CSS Framework 
 * Working links navigate user to respective pages.
 
 ## All Pages
-All pages feature a responsive Bootstrap grid system which adjust row and column size depending on the device's size. While rows and columns will usually take up 2/3rds of the page, extra small devices will have the rows and columns span the entire width of the screen. All pages also feature a sticky footer for aestetic purposes.
+All pages feature a responsive Bootstrap grid system which adjust row and column size depending on the device's size. While rows and columns will usually take up 2/3rds of the page, extra small devices will have the rows and columns span the entire width of the screen. All pages also feature a sticky footer for aestetic purposes. Semantic html has been added to identify navs, articles, and footers
 
 ### Index
 The index (About) page features the bio with a responsive profile picture and sub rows with sub columns to neatly seperate specific artciles within the bio. Lorem ipsum text is currently supplemented between developed parts of the bio to simulate the desired page size of the finished product. This text will eventually be replaced with new sections and information about myself.
@@ -31,4 +31,5 @@ The contact page features a contact form that will allow users to get in touch w
 
 ## Credits
 https://getbootstrap.com/
+<br>
 https://fonts.google.com/
