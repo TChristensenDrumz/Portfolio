@@ -1,5 +1,5 @@
-# Responsive-HW
-This project is a Portfolio/About Me site built using a Bootstrap CSS Framework to create a responsive design for both mobile and desktop. This project features a navbar to navigate through multiple web pages, responsive layouts and images, and most importantly, the utilization of the Bootstrap grid system.
+# Portfolio
+This is a Portfolio/About Me site built using a Bootstrap CSS Framework to create a responsive design for both mobile and desktop. This project features a navbar to navigate through multiple web pages, responsive layouts and images, and most importantly, the utilization of the Bootstrap grid system.
 
 ## Navbar
 * Navbar is featured and consistent on all pages.
