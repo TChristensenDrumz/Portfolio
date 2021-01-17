@@ -12,7 +12,7 @@ function About() {
                             <h1>About Me</h1>
                             <hr/>
                             <div className="float-left pr-3">
-                                <img src="./assets/images/aboutmepage.JPG" className="img-fluid" alt=""/>
+                                <img src="https://ca.slack-edge.com/T01C8L6GK9Q-U01CWJ19YBT-f614b873e04d-512" className="img-fluid about" alt=""/>
                             </div>
                             <div>
                                 <p>

@@ -9,14 +9,14 @@ font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    font-weight: bold;
+    font-weight: bold !important;
     color: turquoise;
 }
 
 .navbar-light .navbar-brand {
     font-weight: bold;
     background-color: turquoise;
-    color: white;
+    color: white !important;
 
 }
 
@@ -25,8 +25,8 @@ p, .nav-link, label, input {
 }
 
 .btn-info {
-    background-color: turquoise;
-    border-color: turquoise;
+    background-color: turquoise !important;
+    border-color: turquoise !important;
     width: 120px;
     height: 60px;
 }
@@ -53,4 +53,9 @@ p, .nav-link, label, input {
 .turquoise {
     color: turquoise;
     font-weight: bold;
+}
+
+.about {
+    width: 300px;
+    height: 300px;
 }

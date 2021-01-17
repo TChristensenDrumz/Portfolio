@@ -11,7 +11,7 @@ function Portfolio() {
                         <div class="col-sm-9 col-xs-12">
                         <h1>Resume</h1>
                         <hr/>
-                        <a href="./assets/Terrapin_Christensen_Resume_2020.pdf">Download PDF</a>
+                        <a href="https://drive.google.com/uc?id=10qREGuXhuBdNJTVxIIy1C_k4siVmidPV&export=download">Download PDF</a>
                         </div>
                     </div>
                     <div class="row mt-5">
