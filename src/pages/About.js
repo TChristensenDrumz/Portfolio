@@ -21,12 +21,34 @@ function About() {
                                     groups including the Colburn Adult Jazz Combo. Terrapin is trained in 
                                     a wide range of musical genres including jazz, rock, funk, latin, hip-hop, 
                                     reggae, metal, and pop. Terrapin also has a year of experience in JavaScript
-                                    and is currently enrolled in the UCLA Extension Coding Bootcamp.
+                                    and is an alumni of the UCLA Extension Fullstack Coding Bootcamp.
                                 </p>
                                 <p> 
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto culpa ratione aut quos nobis fugiat officiis exercitationem enim quibusdam, reiciendis provident, sapiente sed at non iste. Omnis incidunt obcaecati recusandae perferendis dolorem, rerum ad, exercitationem quod vero repellendus cumque veritatis, quo impedit maiores accusantium temporibus facilis asperiores. Recusandae corporis similique, veniam, perspiciatis dignissimos molestiae quidem repellat mollitia voluptatibus repellendus praesentium veritatis rem adipisci voluptatum error explicabo temporibus atque, corrupti dicta tempore aut voluptate cupiditate tempora earum? Ullam eligendi voluptatum delectus voluptas alias nostrum quae fugit nobis nisi, quod, veritatis voluptate, magni facilis error officiis quisquam dolor. Esse, eligendi inventore.
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tempore veniam, asperiores obcaecati sed optio ducimus, labore corrupti, officia illum libero facere? Quo saepe repellat rem similique at nostrum tempora, eius perferendis id. Quidem, explicabo earum perspiciatis magni voluptatem pariatur, inventore voluptate voluptatum, iste optio quam repellat! Culpa voluptas magni enim labore quia quae quaerat sed ab fuga officia? Eos quidem animi soluta, laboriosam aperiam hic dicta, reprehenderit illum qui ducimus accusantium fugiat suscipit? Quod, numquam maiores! Esse maxime qui doloremque ipsam expedita facere. Mollitia sequi quaerat illum necessitatibus alias, dolor animi laboriosam cupiditate quisquam quae, nostrum repudiandae ipsam. Beatae.
-                                </p>
+                                    During his time in UCLA Extension's Fullstack Coding Bootcamp,
+
+
+
+
+
+                                    
+                               </p>
+
+                            <div>
+                                <h3>Technical Skills</h3>
+                                <ul>
+                                    <li>JavaScript ES6+</li>
+                                    <li>ReactJS</li>
+                                    <li>jQuery</li>
+                                    <li>Node.js</li>
+                                    <li>Express</li>
+                                    <li>MongoDB</li>
+                                    <li>MySQL</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Bootstrap</li>
+                                    <li>Handlebars</li>
+                                </ul>
+                            </div>
                                 
                                 <article className="row mt-5">
                                 <article className="col-sm-9 col-xs-12">
