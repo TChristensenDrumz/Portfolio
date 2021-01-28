@@ -6,47 +6,47 @@ function Portfolio() {
     return (
         <>
             <Navbar />
-                <div class="container-fluid ml-5">
-                    <div class="row mt-5">
-                        <div class="col-sm-9 col-xs-12">
+                <div className="container-fluid ml-5">
+                    <div className="row mt-5">
+                        <div className="col-sm-9 col-xs-12">
                         <h1>Resume</h1>
                         <hr/>
                         <a href="https://drive.google.com/uc?id=10qREGuXhuBdNJTVxIIy1C_k4siVmidPV&export=download">Download PDF</a>
                         </div>
                     </div>
-                    <div class="row mt-5">
-                            <div class="col-sm-9 col-xs-12">
+                    <div className="row mt-5">
+                            <div className="col-sm-9 col-xs-12">
                                 <h1>Projects</h1>
                                 <hr/>
                                 <div>
-                                    <h3 class="pl-5">Home Cooked Comfort</h3>
-                                    <img src="https://github.com/tchristensendrumz/Home-Cooked-Comfort/raw/main/assets/screencap.gif?raw=true" class="img-fluid float-left pl-5" alt="Home-Cooked-Comfort"/>
+                                    <h3 className="pl-5">Home Cooked Comfort</h3>
+                                    <img src="https://github.com/tchristensendrumz/Home-Cooked-Comfort/raw/main/assets/screencap.gif?raw=true" className="img-fluid float-left pl-5" alt="Home-Cooked-Comfort"/>
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
-                        <div class="col-sm-9 col-xs-12">
-                            <a class="pl-5" href="https://tchristensendrumz.github.io/Home-Cooked-Comfort/">https://tchristensendrumz.github.io/Home-Cooked-Comfort/</a>
+                        <div className="row mt-5">
+                        <div className="col-sm-9 col-xs-12">
+                            <a className="pl-5" href="https://tchristensendrumz.github.io/Home-Cooked-Comfort/">https://tchristensendrumz.github.io/Home-Cooked-Comfort/</a>
                             <br/>
-                            <a class="pl-5" href="https://github.com/TChristensenDrumz/Home-Cooked-Comfort">https://github.com/TChristensenDrumz/Home-Cooked-Comfort</a>
+                            <a className="pl-5" href="https://github.com/TChristensenDrumz/Home-Cooked-Comfort">https://github.com/TChristensenDrumz/Home-Cooked-Comfort</a>
                         </div>
                         </div>
-                        <div class="row mt-5">
-                        <div class="col-sm-9 col-xs-12">
+                        <div className="row mt-5">
+                        <div className="col-sm-9 col-xs-12">
                             <div>
-                                <h3 class="pl-5">NoGym</h3>
-                                <img src="https://github.com/TChristensenDrumz/NoGym/raw/main/public/assets/images/gif/nogymtest.gif" class="img-fluid float-left pl-5" alt="NoGym"/>
+                                <h3 className="pl-5">NoGym</h3>
+                                <img src="https://github.com/TChristensenDrumz/NoGym/raw/main/public/assets/images/gif/nogymtest.gif" className="img-fluid float-left pl-5" alt="NoGym"/>
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-5">
-                        <div class="col-sm-9 col-xs-12">
-                        <a class="pl-5" href="https://github.com/TChristensenDrumz/NoGym">https://github.com/TChristensenDrumz/NoGym</a>
+                    <div className="row mt-5">
+                        <div className="col-sm-9 col-xs-12">
+                        <a className="pl-5" href="https://github.com/TChristensenDrumz/NoGym">https://github.com/TChristensenDrumz/NoGym</a>
                         <br/>
-                        <a class="pl-5" href="https://nogym.herokuapp.com">https://nogym.herokuapp.com</a>
+                        <a className="pl-5" href="https://nogym.herokuapp.com">https://nogym.herokuapp.com</a>
                         </div>
                     </div>
-                    <div class="filler"></div>
+                    <div className="filler"></div>
                 </div>
             <Footer />
         </>
