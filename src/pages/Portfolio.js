@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
 
 import HARMony from "../assets/harmonythegame.gif";
+import StoreFront from "../assets/storefrontdemo.gif";
 
 function Portfolio() {
     return (
@@ -29,6 +30,21 @@ function Portfolio() {
                             <a className="pl-5" href="https://github.com/TChristensenDrumz/HARMony">https://github.com/TChristensenDrumz/HARMony</a>
                             <br/>
                             <a className="pl-5" href="https://harmonythegame.herokuapp.com/">https://harmonythegame.herokuapp.com/</a>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-sm-9 col-xs-12">
+                            <div>
+                                <h3 className="pl-5">Store Front</h3>
+                                <img src={StoreFront} className="img-fluid float-left pl-5" alt="Store Front"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-sm-9 col-xs-12">
+                            <a className="pl-5" href="https://github.com/TChristensenDrumz/Store-Front">https://github.com/TChristensenDrumz/Store-Front</a>
+                            <br/>
+                            <a className="pl-5" href="https://storefrontreact.herokuapp.com/">https://storefrontreact.herokuapp.com/</a>
                         </div>
                     </div>
                     <div className="row mt-5">

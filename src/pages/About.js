@@ -43,6 +43,7 @@ function About() {
                                     <li>Express</li>
                                     <li>MongoDB</li>
                                     <li>MySQL</li>
+                                    <li>Redux</li>
                                     <li>HTML5</li>
                                     <li>CSS3</li>
                                     <li>Bootstrap</li>
