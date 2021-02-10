@@ -26,10 +26,10 @@ The portfolio page features responsive pictures of my best projects that scale a
 
 ### Contact
 ![Contact Page](assets/contactpage.png)
-The contact page features a contact form that will allow users to get in touch with me by submitting their name, email, and an optional message. **This form is currently not functional**. However, once I obtain the required backend knowledge to program a working submission form, I will make the form functional. A filler div class was also added to push the sticky footer to the bottom and stick, since the lack of content was causing the footer to bug and stick to the bottommost element.
+The contact page features a contact form that will allow users to get in touch with me by submitting their name, email, and a message. The submited message will be sent to me in the form of an email using the name and email provided.
 
 #### Key Points
-* A form submission to get in contact with me. **(Not Functional)**
+* A form submission to get in contact with me.
 * Filler class for div to resolve footer bugs.
 * Link to my LinkedIn profile.
 * Link to my GitHub profile.
@@ -38,6 +38,8 @@ The contact page features a contact form that will allow users to get in touch w
 https://getbootstrap.com/
 <br>
 https://fonts.google.com/
+<br>
+https://www.emailjs.com/
 
 ## Link
 https://terrapinchristensen.herokuapp.com/
