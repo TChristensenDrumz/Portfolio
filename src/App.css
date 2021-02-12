@@ -67,3 +67,12 @@ p, .nav-link, label, input {
 .roboto {
     font-family: 'Roboto', sans-serif; 
 }
+
+.card {
+    box-shadow: 2px 1px 10px -5px black;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 2px 1px 13px -5px black;
+}
