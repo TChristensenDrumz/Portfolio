@@ -2,7 +2,7 @@ import React from "react";
 
 function List() {
   return (
-    <div>
+    <div className="float-right">
       <h3>Technical Skills</h3>
       <ul>
         <li>JavaScript ES6+</li>
