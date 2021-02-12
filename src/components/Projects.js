@@ -97,7 +97,7 @@ function Projects() {
   };
 
   return (
-    <div>
+    <div id="projects">
       <Project 
         title = {title}
         body = {body}

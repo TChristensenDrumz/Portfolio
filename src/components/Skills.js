@@ -4,7 +4,7 @@ import List from "./List";
 
 function Skills() {
   return (
-    <div>
+    <div id="skills">
       <div className="container-fluid ml-5 pr-5">
         <div className="row mt-5">
           <div className="col-sm-9 col-xs-12">

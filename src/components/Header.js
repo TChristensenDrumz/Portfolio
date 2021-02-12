@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 
 function Header() {
     return (
@@ -16,24 +17,24 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto mr-auto">
-            <Nav.Link
-              className="ml-4 mr-4"
-              href="/#skills"
+            <NavLink
+              className="ml-4 mr-4 hashlink"
+              smooth to="/#skills"
             >
               Skills
-            </Nav.Link>
-            <Nav.Link
-              className="ml-4 mr-4"
-              href="/#projects"
+            </NavLink>
+            <NavLink
+              className="ml-4 mr-4 hashlink"
+              smooth to="/#projects"
             >
               Projects
-            </Nav.Link>
-            <Nav.Link
-              className="ml-4 mr-4"
-              href="/#about"
+            </NavLink>
+            <NavLink
+              className="ml-4 mr-4 hashlink"
+              smooth to="/#about"
             >
               About
-            </Nav.Link>
+            </NavLink>
             <Nav.Link
               className="ml-4 mr-4"
               href="/contact"
