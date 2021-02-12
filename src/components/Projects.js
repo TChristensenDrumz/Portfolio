@@ -17,6 +17,9 @@ function Projects() {
   const [github, setGithub] = useState("");
   const [site, setSite] = useState("");
   const [show, setShow] = useState(false);
+  const [hideReact, setHideReact] = useState(false);
+  const [hideJS, setHideJS] = useState(false);
+  const [filter, setFilter] = useState("All");
 
   const handleHarmony = () => {
     setTitle("HARMony")
@@ -54,6 +57,24 @@ function Projects() {
     handleShow();
   }
 
+  const handleAll = () => {
+    setHideReact(false);
+    setHideJS(false);
+    setFilter("All");
+  }
+
+  const handleReact = () => {
+    setHideReact(false);
+    setHideJS(true);
+    setFilter("React");
+  }
+
+  const handleJS = () => {
+    setHideReact(true)
+    setHideJS(false);
+    setFilter("JavaScript");
+  }
+
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -88,27 +109,30 @@ function Projects() {
       />
       <Container fluid style={{ maxWidth: "75vw" }}>
         <div style={styles.div}>
-          <h1 style={styles.h1}>Projects</h1>
+          <h1 style={styles.h1}>{filter} Projects</h1>
         </div>
         <Nav className="ml-auto mr-auto justify-content-md-center">
             <Nav.Link
               className="ml-4 mr-4"
+              onClick={handleAll}
             >
               All
             </Nav.Link>
             <Nav.Link
               className="ml-4 mr-4"
+              onClick={handleReact}
             >
               React
             </Nav.Link>
             <Nav.Link
               className="ml-4 mr-4"
+              onClick={handleJS}
             >
               JavaScript
             </Nav.Link>
           </Nav>
         <Row className="justify-content-md-center">
-          <Col>
+          <Col style={hideReact ? { display: "none" } : { visibility: "visible" }}>
             <Card style={{ width: "15vw", minWidth: "250px" }} onClick={handleHarmony}>
               <Image variant="top" src={HARMony} style={styles.image} />
               <Card.Body>
@@ -116,7 +140,7 @@ function Projects() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col style={hideReact ? { display: "none" } : { visibility: "visible" }}>
             <Card style={{ width: "15vw", minWidth: "250px" }} onClick={handleStoreFront}>
               <Image variant="top" src={StoreFront} style={styles.image} />
               <Card.Body>
@@ -124,7 +148,7 @@ function Projects() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col style={hideJS ? { display: "none" } : { visibility: "visible" }}>
             <Card style={{ width: "15vw", minWidth: "250px" }} onClick={handleNoGym}>
               <Image variant="top" src="https://github.com/TChristensenDrumz/NoGym/raw/main/public/assets/images/gif/nogymtest.gif" style={styles.image} />
               <Card.Body>
@@ -132,7 +156,7 @@ function Projects() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col style={hideJS ? { display: "none" } : { visibility: "visible" }}>
             <Card style={{ width: "15vw", minWidth: "250px" }} onClick={handleHomeCookedComfort}>
               <Image variant="top" src="https://github.com/tchristensendrumz/Home-Cooked-Comfort/raw/main/assets/screencap.gif?raw=true" style={styles.image} />
               <Card.Body>

@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    <div className="container pt-5">
       <h1>About Me</h1>
       <div>
         <p>
@@ -20,12 +20,9 @@ function About() {
         </p>
         <p>
           During his time in UCLA Extension's Fullstack Coding Bootcamp,
-          Terrapin worked on a variety of assignments and{" "}
-          <a href="/portfolio" className="roboto">
-            projects
-          </a>{" "}
-          that allowed him to hone his exsisting JavaScript skills as well as
-          learn a multitude of useful new web development techniques.
+          Terrapin worked on a variety of assignments and projects that allowed
+          him to hone his exsisting JavaScript skills as well as learn a
+          multitude of useful new web development techniques.
         </p>
         <div className="space"></div>
 
