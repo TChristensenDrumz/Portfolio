@@ -1,91 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap");
 /* 
 font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif; 
 */
 
 * {
-    font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background: url("./assets/background.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
-    font-weight: bold !important;
-    color: turquoise;
+  font-weight: bold !important;
+  color: #dad0c0;
+}
+
+h3 {
+  color: #dad0c0;
 }
 
 .navbar {
-    background-color: white;
-}
-
-.headerTextColor {
-    color: white;
+  background-color: #dad0c0;
 }
 
 .navbar-brand {
-    font-weight: bold;
-    background-color: turquoise;
-    color: white !important;
-
+  font-weight: bold;
+  color: #373939 !important;
 }
 
-p, a, .nav-link, label, input {
-    font-family: 'Roboto', sans-serif; 
+p,
+a,
+ul,
+li,
+.nav-link,
+label,
+input {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.nav-link {
+  color: #373939 !important;
 }
 
 .hashlink {
-    color: rgba(0,0,0,.5);
-    padding: .5rem .5rem;
+  color: #373939;
+  padding: 0.5rem 0.5rem;
 }
 
 .btn-info {
-    background-color: turquoise !important;
-    border-color: turquoise !important;
-    width: 120px;
-    height: 60px;
+  background-color: #dad0c0 !important;
+  border-color: #9f7f4e !important;
+  color: #373939 !important;
+  width: 120px;
+  height: 60px;
 }
 
-.btn, .form-control {
-    border-radius: 0rem;
+.btn-info:hover {
+  background-color: #9f7f4e !important;
+  border-color: #7a5b45 !important;
+  color: #dad0c0 !important;
+}
+
+.btn,
+.form-control {
+  border-radius: 0rem;
 }
 
 #contact-message {
-    height: calc(1.5em + .75rem + 75px);
+  height: calc(1.5em + 0.75rem + 75px);
 }
 
 .footer {
-    text-align: center;
-    color: teal;
-    background-color: rgb(48, 48, 48);
+  text-align: center;
+  color: #dad0c0;
+  background-color: rgb(48, 48, 48);
 }
 
 .filler {
-    margin-bottom: 100px;
-    padding-bottom: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
-.turquoise {
-    color: turquoise;
-    font-weight: bold;
+.sisal {
+  color: #dad0c0;
+  font-weight: bold;
 }
 
 .about {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .space {
-    padding-bottom: 9rem;
+  padding-bottom: 9rem;
 }
 
 .roboto {
-    font-family: 'Roboto', sans-serif; 
+  font-family: "Roboto", sans-serif;
 }
 
 .card {
-    box-shadow: 2px 1px 10px -5px black;
+  box-shadow: 2px 1px 10px -5px black;
 }
 
 .card:hover {
-    cursor: pointer;
-    box-shadow: 2px 1px 13px -5px black;
+  cursor: pointer;
+  box-shadow: 2px 1px 13px -5px black;
 }

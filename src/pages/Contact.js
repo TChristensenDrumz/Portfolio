@@ -24,7 +24,7 @@ function Contact() {
 
   return (
     <>
-      <div className="container-fluid ml-5">
+      <div className="container-fluid ml-5 contact-header" style={{ paddingTop: "6rem" }}>
         <div className="row mt-5">
           <div className="col-sm-9 col-xs-12">
             <h1>Contact</h1>
@@ -63,13 +63,13 @@ function Contact() {
           </div>
         </div>
         <section className="mt-5">
-          <h3 className="turquoise">Connect with LinkedIn!</h3>
+          <h3 className="sisal">Connect with LinkedIn!</h3>
           <a href="https://www.linkedin.com/in/terrapin-christensen-381a831b8/">
             www.linkedin.com/TerrapinChristensen
           </a>
         </section>
         <section className="mt-5">
-          <h3 className="turquoise">GitHub</h3>
+          <h3 className="sisal">GitHub</h3>
           <a href="https://github.com/TChristensenDrumz">
             github.com/TChristensenDrumz
           </a>
