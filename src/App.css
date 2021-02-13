@@ -13,7 +13,15 @@ h1 {
     color: turquoise;
 }
 
-.navbar-light .navbar-brand {
+.navbar {
+    background-color: white;
+}
+
+.headerTextColor {
+    color: white;
+}
+
+.navbar-brand {
     font-weight: bold;
     background-color: turquoise;
     color: white !important;

@@ -97,7 +97,7 @@ function Projects() {
   };
 
   return (
-    <div id="projects">
+    <div id="projects" style={{ paddingTop: "9rem" }}>
       <Project 
         title = {title}
         body = {body}

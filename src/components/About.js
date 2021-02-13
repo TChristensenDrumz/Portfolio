@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="container pt-5" id="about">
+    <div className="container pt-5" id="about" style={{ paddingTop: "9rem" }}>
       <h1>About Me</h1>
       <div>
         <p>
