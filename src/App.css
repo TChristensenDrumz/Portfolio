@@ -41,6 +41,14 @@ input {
   color: white;
 }
 
+.contact-link {
+  color: white !important;
+}
+
+.contact-link:hover {
+  color: #dad0c0 !important;
+}
+
 .nav-link {
   color: #373939 !important;
 }
@@ -123,4 +131,21 @@ input {
 .card:hover {
   cursor: pointer;
   box-shadow: 2px 1px 13px -5px black;
+}
+
+.modal-header {
+  background-color: #dad0c0;
+  color: #373939;
+  border-bottom: 1px solid #373939 !important;
+}
+
+.modal-body {
+  background-color: #dad0c0;
+  color: #373939;
+}
+
+.alert-info {
+  background-color: #1A6E7C !important;
+  border-color: #1C4974 !important;
+  color: white !important;
 }

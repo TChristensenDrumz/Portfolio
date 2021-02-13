@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import Alert from "react-bootstrap/Alert";
 
 function Contact() {
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
+  const [errorText, setErrorText] = useState("");
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -14,9 +19,12 @@ function Contact() {
       )
       .then(
         (result) => {
+          setSuccess(true);
           console.log(result.text);
         },
         (error) => {
+          setError(true);
+          setErrorText(error.text);
           console.log(error.text);
         }
       );
@@ -24,9 +32,26 @@ function Contact() {
 
   return (
     <>
-      <div className="container-fluid ml-5 contact-header" style={{ paddingTop: "6rem" }}>
+      <div
+        className="container-fluid ml-5 contact-header"
+        style={{ paddingTop: "6rem" }}
+      >
         <div className="row mt-5">
           <div className="col-sm-9 col-xs-12">
+            <Alert
+              style={success ? { visibility: "visible" } : { display: "none" }}
+              key={"success"}
+              variant={"info"}
+            >
+              Your message has been sent!
+            </Alert>
+            <Alert
+              style={error ? { visibility: "visible" } : { display: "none" }}
+              key={"success"}
+              variant={"danger"}
+            >
+              {errorText}
+            </Alert>
             <h1 className="coffee">Contact</h1>
             <hr />
             <form className="contact-form" onSubmit={sendEmail}>
@@ -64,13 +89,19 @@ function Contact() {
         </div>
         <section className="mt-5">
           <h3 className="sisal">Connect with LinkedIn!</h3>
-          <a href="https://www.linkedin.com/in/terrapin-christensen-381a831b8/">
+          <a
+            className="contact-link"
+            href="https://www.linkedin.com/in/terrapin-christensen-381a831b8/"
+          >
             www.linkedin.com/TerrapinChristensen
           </a>
         </section>
         <section className="mt-5">
           <h3 className="sisal">GitHub</h3>
-          <a href="https://github.com/TChristensenDrumz">
+          <a
+            className="contact-link"
+            href="https://github.com/TChristensenDrumz"
+          >
             github.com/TChristensenDrumz
           </a>
         </section>
