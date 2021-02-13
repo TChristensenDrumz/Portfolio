@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="container pt-5" id="about" style={{ paddingTop: "9rem" }}>
-      <h1>About Me</h1>
+      <h1 className="sisal">About Me</h1>
       <div>
         <p>
           Terrapin Christensen, born in Dubuque, Iowa, is a professional drummer

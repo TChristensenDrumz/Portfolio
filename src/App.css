@@ -17,11 +17,6 @@ body {
   background-repeat: no-repeat;
 }
 
-h1 {
-  font-weight: bold !important;
-  color: #dad0c0;
-}
-
 h3 {
   color: #dad0c0;
 }
@@ -91,6 +86,11 @@ input {
 
 .sisal {
   color: #dad0c0;
+  font-weight: bold;
+}
+
+.coffee {
+  color: #7A5B45;
   font-weight: bold;
 }
 

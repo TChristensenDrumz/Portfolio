@@ -27,7 +27,7 @@ function Contact() {
       <div className="container-fluid ml-5 contact-header" style={{ paddingTop: "6rem" }}>
         <div className="row mt-5">
           <div className="col-sm-9 col-xs-12">
-            <h1>Contact</h1>
+            <h1 className="coffee">Contact</h1>
             <hr />
             <form className="contact-form" onSubmit={sendEmail}>
               <div className="form-group mr-5">
