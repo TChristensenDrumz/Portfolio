@@ -16,7 +16,7 @@ function Header() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto mr-auto">
+        <Nav className="ml-auto mr-auto" style={{ paddingRight: "12rem" }}>
           <NavLink className="ml-4 mr-4 hashlink" smooth to="/#skills">
             Skills
           </NavLink>
