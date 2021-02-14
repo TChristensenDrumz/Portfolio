@@ -21,6 +21,7 @@ function Contact() {
         (result) => {
           setSuccess(true);
           console.log(result.text);
+          document.getElementById("form").reset();
         },
         (error) => {
           setError(true);
@@ -54,7 +55,7 @@ function Contact() {
             </Alert>
             <h1 className="coffee">Contact</h1>
             <hr />
-            <form className="contact-form" onSubmit={sendEmail}>
+            <form className="contact-form" id="form" onSubmit={sendEmail}>
               <div className="form-group mr-5">
                 <input type="hidden" name="contact_number" />
                 <label>Name</label>
