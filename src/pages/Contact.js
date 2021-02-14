@@ -92,6 +92,7 @@ function Contact() {
           <a
             className="contact-link"
             href="https://www.linkedin.com/in/terrapin-christensen-381a831b8/"
+            target="_blank"
           >
             www.linkedin.com/TerrapinChristensen
           </a>
@@ -101,6 +102,7 @@ function Contact() {
           <a
             className="contact-link"
             href="https://github.com/TChristensenDrumz"
+            target="_blank"
           >
             github.com/TChristensenDrumz
           </a>

@@ -16,11 +16,11 @@ function Project({ title, body, image, github, site, show, handleClose }) {
           <img src={image} className="img-fluid pl-2 pb-3" alt="Project GIF" />
           <div className="pb-3">{body}</div>
           <div className="text-right">
-            <Button variant="primary" href={site}>
+            <Button variant="primary" href={site} target="_blank">
               Go to {title}
             </Button>
             &nbsp;
-            <Button variant="dark" href={github}>
+            <Button variant="dark" href={github} target="_blank">
               GitHub
             </Button>
             &nbsp;
