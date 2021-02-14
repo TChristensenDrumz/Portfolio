@@ -1,41 +1,37 @@
 # Portfolio
-This is a Portfolio/About Me site built using a Bootstrap CSS Framework to create a responsive design for both mobile and desktop. This project features a navbar to navigate through multiple web pages, responsive layouts and images, and most importantly, the utilization of the Bootstrap grid system.
+This is my professional portfolio site built using ReactJS and React Bootstrap to create a responsive design for both mobile and desktop. This site features a navbar with hash links to navigate to different parts of the landing page, nav links to switch between the landing and contact pages, responsive layouts and images, and most importantly, the utilization of the Bootstrap grid system.
 
 ## Navbar
 * Navbar is featured and consistent on all pages.
-* Working links navigate user to respective pages.
+* Working links navigate user to respective pages/parts of the page.
 
 ## All Pages
-All pages feature a responsive Bootstrap grid system which adjust row and column size depending on the device's size. While rows and columns will usually take up 2/3rds of the page, extra small devices will have the rows and columns span the entire width of the screen. All pages also feature a sticky footer for aestetic purposes. Semantic html has been added to identify navs, articles, and footers. The footer includes contact info for those who wish to reach me.
+All pages feature a responsive Bootstrap grid system which adjust row and column size depending on the device's size. While rows and columns will usually take up 2/3rds of the page, extra small devices will have the rows and columns span the entire width of the screen. All pages also feature a sticky footer for aestetic purposes. The footer includes contact info for those who wish to reach me.
 
-### Index
-![About Me Page](assets/aboutpage.png)
-The index (About) page features the bio with a responsive profile picture and sub rows with sub columns to neatly seperate specific artciles within the bio. Lorem ipsum text is currently supplemented between developed parts of the bio to simulate the desired page size of the finished product. This text will eventually be replaced with new sections and information about myself.
-
-#### Key Points
-* Responsive profile picture with responsive wrapping text.
-* Sub-rows and sub-columns to seperate important articles within the main bio.
-
-### Portfolio
-![Portfolio Page](assets/projectpage.png)
-The portfolio page features responsive pictures of my best projects that scale and format depending on the size of the device. Additionaly, there is a link to a downloadable version of my most recent resume. This page will be updated with new pictures with each noteworthy project.
+### Landing
+![Landing Page](assets/landingpage.gif)
+The landing page is split into three React components to seperate the different sections of the page, the Skills, Projects, and About components. The skills section features a responsive profile picture, my current skills list, and my downloadable resume. The projects section features all my current noteworthy projects. Each project is a clickable card that presents a modal window with information on the project, as well as links to the deployed project and GitHub repo. Additionaly, the projects can be filtered by technologies used. The about section holds the bio and was built using sub rows with sub columns to neatly seperate specific artciles within the bio. 
 
 #### Key Points
-* Responsive images that format according to device size.
-* Link to a downloadable pdf of my resume
+* React components seperate the page into three sections.
+* **Skills:** Resposive profile photo with list of technical skills.
+* **Skills:** Downloadable pdf of most recent resume.
+* **Projects:** Projects presented as clickable cards with title and image. Cards are responsive and spacing is dependent on screen size.
+* **Projects:** Modals that give project description with links to deployed project and GitHub repo.
+* **Projects:** Filter projects by technologies used.
+* **About:** Sub-rows and sub-columns to seperate important articles within the main bio.
 
 ### Contact
-![Contact Page](assets/contactpage.png)
+![Contact Page](assets/contactpage.gif)
 The contact page features a contact form that will allow users to get in touch with me by submitting their name, email, and a message. The submited message will be sent to me in the form of an email using the name and email provided.
 
 #### Key Points
 * A form submission to get in contact with me.
-* Filler class for div to resolve footer bugs.
 * Link to my LinkedIn profile.
 * Link to my GitHub profile.
 
 ## Credits
-https://getbootstrap.com/
+https://react-bootstrap.github.io/
 <br>
 https://fonts.google.com/
 <br>
