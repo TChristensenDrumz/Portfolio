@@ -42,6 +42,10 @@ input {
   color: white;
 }
 
+.skill {
+  margin-bottom: auto;
+}
+
 .contact-link {
   color: white !important;
 }
