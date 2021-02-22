@@ -23,7 +23,7 @@ function About() {
               alumni of the UCLA Extension Fullstack Coding Bootcamp. During his
               time in UCLA Extension's Fullstack Coding Bootcamp, Terrapin
               worked on a variety of assignments and projects that allowed him
-              to hone his exsisting JavaScript skills as well as learn a
+              to hone his existing JavaScript skills as well as learn a
               multitude of useful new web development techniques.
             </p>
           </article>
@@ -35,7 +35,7 @@ function About() {
             <p>
               Terrapin has always had a deep love for music, and began drumming
               at the age of 6. Terrapin has preformed with many local groups,
-              most noteably the Colburn Adult Jazz Combo. Terrapin is trained in
+              most notably the Colburn Adult Jazz Combo. Terrapin is trained in
               a wide range of musical genres including jazz, rock, funk, latin,
               hip-hop, reggae, metal, and pop.
             </p>
@@ -49,7 +49,7 @@ function About() {
               Terrapin's dream is to start his own video game development
               company. He plays a wide variety of video games to study different
               genres of gaming and currently has a few small projects in the
-              very early stages of deveopment.
+              very early stages of development.
             </p>
           </article>
         </article>
