@@ -94,6 +94,7 @@ function Contact() {
             className="contact-link"
             href="https://www.linkedin.com/in/terrapin-christensen-381a831b8/"
             target="_blank"
+            rel="norefferer"
           >
             www.linkedin.com/TerrapinChristensen
           </a>
@@ -104,6 +105,7 @@ function Contact() {
             className="contact-link"
             href="https://github.com/TChristensenDrumz"
             target="_blank"
+            rel="norefferer"
           >
             github.com/TChristensenDrumz
           </a>
