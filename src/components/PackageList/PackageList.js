@@ -8,6 +8,7 @@ function PackageList() {
       <p className="skill text-center">Passport</p>
       <p className="skill text-center">Mongoose</p>
       <p className="skill text-center">Sequelize</p>
+      <p className="skill text-center">Axios</p>
       <p className="skill text-center">React PDF</p>
       <p className="skill text-center">EmailJS</p>
   </div>;
