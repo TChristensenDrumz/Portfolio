@@ -1,7 +1,8 @@
-.contact-link {
-  color: white;
+.download-link {
+  color: #fae1fc;
 }
 
-.contact-link:hover {
-  color: #dad0c0;
+.download-link:hover {
+  color: #fae1fc;
+  text-shadow: 0 0 0.125rem #fae1fc;
 }

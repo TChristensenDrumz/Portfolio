@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap");
-/* 
-font-family: 'Merriweather', serif;
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap");
+/*
+font-family: 'Audiowide', cursive;
 font-family: 'Roboto', sans-serif; 
 */
 
 * {
-  font-family: "Merriweather", serif;
+  font-family: "Audiowide", cursive;
 }
 
 body {
@@ -18,10 +18,6 @@ body {
   overflow-x: hidden;
 }
 
-h3 {
-  color: #dad0c0;
-}
-
 p,
 a,
 ul,
@@ -32,19 +28,18 @@ input {
   color: white;
 }
 
-
 .btn-info {
-  background-color: #dad0c0 ;
-  border-color: #9f7f4e ;
-  color: #373939 ;
+  background-color: #dad0c0;
+  border-color: #9f7f4e;
+  color: #373939;
   width: 120px;
   height: 60px;
 }
 
 .btn-info:hover {
-  background-color: #9f7f4e ;
-  border-color: #7a5b45 ;
-  color: #dad0c0 ;
+  background-color: #9f7f4e;
+  border-color: #7a5b45;
+  color: #dad0c0;
 }
 
 .btn,
@@ -71,7 +66,7 @@ input {
 }
 
 .alert-info {
-  background-color: #1a6e7c ;
-  border-color: #1c4974 ;
-  color: white ;
+  background-color: #1a6e7c;
+  border-color: #1c4974;
+  color: white;
 }

@@ -4,15 +4,20 @@
 
 .navbar-brand {
   font-weight: bold;
-  color: #baf0fa;
+  color: #baf0fa !important;
+}
+
+.navbar-brand:hover {
+  text-shadow: 0 0 0.125rem #baf0fa;
 }
 
 .nav-link {
-  color: #fae1fc;
+  color: #fae1fc !important;
 }
 
 .nav-link:hover {
-  color: #7a5b45;
+  color: #fae1fc;
+  text-shadow: 0 0 0.125rem #fae1fc;
 }
 
 .hashlink {
@@ -21,12 +26,18 @@
 }
 
 .hashlink:hover {
-  color: #7a5b45;
+  color: #fae1fc;
+  text-shadow: 0 0 0.125rem #fae1fc;
   text-decoration: none;
 }
 
 .resume-link {
   color: #baf0fa;
+}
+
+.resume-link:hover {
+  color: #baf0fa;
+  text-shadow: 0 0 0.125rem #baf0fa;
 }
 
 .resume-show {

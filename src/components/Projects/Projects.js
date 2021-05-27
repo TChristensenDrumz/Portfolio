@@ -110,7 +110,7 @@ function Projects() {
       />
       <Container fluid style={{ maxWidth: "75vw" }}>
         <div style={styles.div}>
-          <h1 className="sisal" style={styles.h1}>{filter} Projects</h1>
+          <h1 className="projects-label" style={styles.h1}>{filter} Projects</h1>
         </div>
         <Nav className="ml-auto mr-auto justify-content-md-center">
             <Nav.Link
