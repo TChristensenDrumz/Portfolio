@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "./Image";
-import List from "./List";
+import Image from "../Image/Image";
+import List from "../List/List";
 
 function Skills() {
   return (

@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 body {
-  background: url("./assets/background.jpeg") no-repeat center center fixed;
+  background: url("./assets/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -22,80 +22,29 @@ h3 {
   color: #dad0c0;
 }
 
-.navbar {
-  background-color: #dad0c0;
-}
-
-.navbar-brand {
-  font-weight: bold;
-  color: #373939 !important;
-}
-
 p,
 a,
 ul,
 li,
-.nav-link,
 label,
 input {
   font-family: "Roboto", sans-serif;
   color: white;
 }
 
-.skill {
-  margin-bottom: auto;
-}
-
-.contact-link {
-  color: white !important;
-}
-
-.contact-link:hover {
-  color: #dad0c0 !important;
-}
-
-.nav-link {
-  color: #373939 !important;
-}
-
-.nav-link:hover {
-  color: #7a5b45 !important;
-}
-
-.hashlink {
-  color: #373939;
-  padding: 0.5rem 0.5rem;
-}
-
-.hashlink:hover {
-  color: #7a5b45;
-  text-decoration: none;
-}
-
-.resume-show {
-  visibility: visible;
-  text-decoration: underline;
-  transition: visibility 0.5s ease;
-}
-
-.resume-hide {
-  visibility: hidden;
-  text-decoration: underline;
-  transition: visibility 0.5s ease;
-}
 
 .btn-info {
-  background-color: #dad0c0 !important;
-  border-color: #9f7f4e !important;
-  color: #373939 !important;
+  background-color: #dad0c0 ;
+  border-color: #9f7f4e ;
+  color: #373939 ;
   width: 120px;
   height: 60px;
 }
 
 .btn-info:hover {
-  background-color: #9f7f4e !important;
-  border-color: #7a5b45 !important;
-  color: #dad0c0 !important;
+  background-color: #9f7f4e ;
+  border-color: #7a5b45 ;
+  color: #dad0c0 ;
 }
 
 .btn,
@@ -107,25 +56,9 @@ input {
   height: calc(1.5em + 0.75rem + 75px);
 }
 
-.footer {
-  text-align: center;
-  color: #dad0c0;
-  background-color: rgb(48, 48, 48);
-}
-
 .filler {
   margin-bottom: 100px;
   padding-bottom: 100px;
-}
-
-.sisal {
-  color: #dad0c0;
-  font-weight: bold;
-}
-
-.coffee {
-  color: #7a5b45;
-  font-weight: bold;
 }
 
 .about {
@@ -133,36 +66,12 @@ input {
   height: 300px;
 }
 
-.space {
-  padding-bottom: 9rem;
-}
-
 .roboto {
   font-family: "Roboto", sans-serif;
 }
 
-.card {
-  box-shadow: 2px 1px 10px -5px black;
-}
-
-.card:hover {
-  cursor: pointer;
-  box-shadow: 2px 1px 13px -5px black;
-}
-
-.modal-header {
-  background-color: #dad0c0;
-  color: #373939;
-  border-bottom: 1px solid #373939 !important;
-}
-
-.modal-body {
-  background-color: #dad0c0;
-  color: #373939;
-}
-
 .alert-info {
-  background-color: #1a6e7c !important;
-  border-color: #1c4974 !important;
-  color: white !important;
+  background-color: #1a6e7c ;
+  border-color: #1c4974 ;
+  color: white ;
 }

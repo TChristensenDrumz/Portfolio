@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { NavHashLink as NavLink } from "react-router-hash-link";
+import './Header.css'
 
 function Header() {
   const [hideResume, setHideResume] = useState(true);
@@ -43,7 +44,7 @@ function Header() {
           </Nav.Link>
         </Nav>
         <a
-          className={hideResume ? "hashlink pr-2 resume-hide" : "hashlink pr-2 resume-show" }
+          className={hideResume ? "resume-link pr-2 resume-hide" : "resume-link pr-2 resume-show" }
           href="https://drive.google.com/uc?id=1W3Be9OTF7-eNMKt1TvDaFjmPh-FFDP2j&export=download"
         >
           Download Resume

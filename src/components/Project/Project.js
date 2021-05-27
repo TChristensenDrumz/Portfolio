@@ -1,6 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import './Project.css'
 
 function Project({ title, body, image, github, site, show, handleClose }) {
   return (

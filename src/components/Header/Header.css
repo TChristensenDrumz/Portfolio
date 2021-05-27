@@ -1,0 +1,42 @@
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #baf0fa;
+}
+
+.nav-link {
+  color: #fae1fc;
+}
+
+.nav-link:hover {
+  color: #7a5b45;
+}
+
+.hashlink {
+  color: #fae1fc;
+  padding: 0.5rem 0.5rem;
+}
+
+.hashlink:hover {
+  color: #7a5b45;
+  text-decoration: none;
+}
+
+.resume-link {
+  color: #baf0fa;
+}
+
+.resume-show {
+  visibility: visible;
+  text-decoration: underline;
+  transition: visibility 0.5s ease;
+}
+
+.resume-hide {
+  visibility: hidden;
+  text-decoration: underline;
+  transition: visibility 0.5s ease;
+}

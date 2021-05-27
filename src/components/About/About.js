@@ -1,9 +1,10 @@
 import React from "react";
+import './About.css'
 
 function About() {
   return (
     <div className="container pt-5" id="about" style={{ paddingTop: "9rem" }}>
-      <h1 className="coffee">About Me</h1>
+      <h1 className="">About Me</h1>
       <div>
         <p>
           Hello! I'm Terrapin, a full-stack web developer with well-balanced
@@ -55,7 +56,7 @@ function About() {
             <h3>Goals</h3>
             <p>
               My dream is to one day start my own video game development
-              company. I plays a wide variety of video games to study different
+              company. I play a wide variety of video games to study different
               genres of gaming and currently have a few small projects in the
               very early stages of development.
             </p>

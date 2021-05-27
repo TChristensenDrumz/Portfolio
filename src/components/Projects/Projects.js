@@ -5,10 +5,11 @@ import Container from "react-bootstrap/Container";
 import { Card } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 import { Nav } from "react-bootstrap";
-import Project from "./Project";
+import Project from "../Project/Project";
+import './Projects.css'
 
-import HARMony from "../assets/harmonythegame.gif";
-import StoreFront from "../assets/storefrontdemo.gif";
+import HARMony from "../../assets/harmonythegame.gif";
+import StoreFront from "../../assets/storefrontdemo.gif";
 
 function Projects() {
   const [title, setTitle] = useState("");
