@@ -11,6 +11,9 @@ function PackageList() {
       <p className="skill text-center">Axios</p>
       <p className="skill text-center">React PDF</p>
       <p className="skill text-center">EmailJS</p>
+      <p className="skill text-center">Bootstrap</p>
+      <p className="skill text-center">React Bootstrap</p>
+      <p className="skill text-center">Material-UI</p>
   </div>;
 }
 

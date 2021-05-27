@@ -1,6 +1,8 @@
 import React from "react";
 import "./TechList.css";
 
+
+
 function TechList() {
   return (
     <div>
@@ -15,7 +17,6 @@ function TechList() {
         <p className="skill text-center">Redux</p>
         <p className="skill text-center">HTML5</p>
         <p className="skill text-center">CSS3</p>
-        <p className="skill text-center">Bootstrap</p>
         <p className="skill text-center">Handlebars</p>
     </div>
   );
