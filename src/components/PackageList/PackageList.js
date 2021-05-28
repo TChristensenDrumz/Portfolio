@@ -7,7 +7,9 @@ import Mongoose from "../../icons/mongoose.png";
 import Sequelize from "../../icons/sequelize.png";
 import Axios from "../../icons/axios.png";
 import ReactPDF from "../../icons/reactpdf.png";
+import Nodemailer from "../../icons/nodemailer.png"
 import EmailJS from "../../icons/emailjs.png";
+import BcryptJS from "../../icons/bcryptjs.jpg"
 import Bootstrap from "../../icons/bootstrap.png";
 import ReactBootstrap from "../../icons/reactbootstrap.png";
 import MaterialUI from "../../icons/materialui.png";
@@ -66,10 +68,26 @@ function PackageList() {
       </div>
       <div className="row pt-1">
         <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={Nodemailer} alt="EmailJS"/>
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">Nodemailer</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
           <img className="img-fluid float-right" src={EmailJS} alt="EmailJS"/>
         </div>
         <div className="col-7 pl-1 pt-1">
           <p className="skill float-left">EmailJS</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={BcryptJS} alt="EmailJS"/>
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">BcryptJS</p>
         </div>
       </div>
       <div className="row pt-1">

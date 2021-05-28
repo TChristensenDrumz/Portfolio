@@ -9,6 +9,7 @@ import Express from "../../icons/express.png";
 import MongoDB from "../../icons/mongodb.png";
 import MySQL from "../../icons/mysql.png";
 import Redux from "../../icons/redux.png";
+import TypeScript from "../../icons/typescript.png"
 import HTML from "../../icons/html.png";
 import CSS from "../../icons/css.png";
 import Git from "../../icons/git.png";
@@ -80,6 +81,14 @@ function TechList() {
         </div>
         <div className="col-7 pl-1 pt-1">
           <p className="skill float-left">Redux</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={TypeScript} alt="Redux"/>
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">TypeScript</p>
         </div>
       </div>
       <div className="row pt-1">
