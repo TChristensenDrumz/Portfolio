@@ -37,7 +37,7 @@ function Contact() {
         className="container-fluid ml-5 contact-header"
         style={{ paddingTop: "6rem" }}
       >
-        <div className="row mt-5">
+        <div className="row mt-5 justify-content-center">
           <div className="col-sm-9 col-xs-12">
             <Alert
               style={success ? { visibility: "visible" } : { display: "none" }}
@@ -53,7 +53,7 @@ function Contact() {
             >
               {errorText}
             </Alert>
-            <h1 className="pink">Contact</h1>
+            <h1 className="pink text-center">Contact</h1>
             <hr />
             <form className="contact-form" id="form" onSubmit={sendEmail}>
               <div className="form-group mr-5">
@@ -84,11 +84,11 @@ function Contact() {
                   placeholder="Message"
                 />
               </div>
-              <input type="submit" className="btn btn-info" value="Send" />
+              <button type="submit" className="neon-button roboto" value="Send">Send</button>
             </form>
           </div>
         </div>
-        <section className="mt-5">
+        <section className="mt-5 text-center">
           <h3 className="pink">Connect with LinkedIn!</h3>
           <a
             className="contact-link"
@@ -99,7 +99,7 @@ function Contact() {
             www.linkedin.com/TerrapinChristensen
           </a>
         </section>
-        <section className="mt-5">
+        <section className="mt-5 text-center">
           <h3 className="pink">GitHub</h3>
           <a
             className="contact-link"

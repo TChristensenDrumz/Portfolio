@@ -61,9 +61,10 @@ textarea {
 }
 
 .alert-info {
-  background-color: #1a6e7c;
-  border-color: #1c4974;
-  color: white;
+  background-color: #fae1fc !important;
+  border-color: #fae1fc !important;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em black;
+  box-shadow: inset 0 0 0.5em 0 #fae1fc, 0 0 0.5em 0 #fae1fc;
 }
 
 .contact-link {
@@ -80,4 +81,48 @@ textarea {
   color: #fae1fc;
   text-decoration: underline;
   text-shadow: 0 0 0.25rem #fae1fc;
+}
+
+.neon-button {
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: #baf0fa;
+  background-color: black;
+  border: #baf0fa 0.125em solid;
+  padding: 0.25em 1.25em;
+  border-radius: 0.25em;
+  z-index: 1;
+
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #baf0fa;
+  box-shadow: inset 0 0 0.5em 0 #baf0fa, 0 0 0.5em 0 #baf0fa;
+
+  position: relative;
+}
+
+.neon-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 2em 0.5em #baf0fa;
+    opacity: 0;
+    background-color: #baf0fa;
+    z-index: -1;
+    transition: opacity 100ms linear;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+    color: black;
+    background-color: #baf0fa;
+    text-shadow: none;
+}
+
+.neon-button:hover::after,
+.neon-button:focus::after {
+    opacity: 1;
 }
