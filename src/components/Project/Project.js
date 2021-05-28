@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-import './Project.css'
+import "./Project.css";
 
 function Project({ title, body, image, github, site, show, handleClose }) {
   return (
@@ -15,19 +15,30 @@ function Project({ title, body, image, github, site, show, handleClose }) {
 
         <Modal.Body>
           <img src={image} className="img-fluid pl-2 pb-3" alt="Project GIF" />
-          <div className="pb-3">{body}</div>
+          <div className="pb-3 roboto">{body}</div>
           <div className="text-right">
-            <Button variant="primary" href={site} target="_blank">
+            <a
+              className="website-button"
+              href={site}
+              target="_blank"
+              rel="norefferer"
+            >
               Go to {title}
-            </Button>
-            &nbsp;
-            <Button variant="dark" href={github} target="_blank">
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a
+              className="github-button"
+              href={github}
+              target="_blank"
+              rel="norefferer"
+            >
               GitHub
-            </Button>
-            &nbsp;
-            <Button variant="danger" onClick={handleClose}>
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <button className="close-button" onClick={handleClose}>
               Close
-            </Button>
+            </button>
+            <div className="pt-3"></div>
           </div>
         </Modal.Body>
       </Modal>
