@@ -4,7 +4,7 @@ import './About.css'
 function About() {
   return (
     <div className="container pt-5" id="about" style={{ paddingTop: "9rem" }}>
-      <h1 className="">About Me</h1>
+      <h1 className="neon-blue">About Me</h1>
       <div>
         <p>
           Hello! I'm Terrapin, a full-stack web developer with well-balanced
@@ -15,7 +15,7 @@ function About() {
 
         <article className="row mt-5">
           <article className="col-12">
-            <h3>Coding</h3>
+            <h3 className="neon-pink">Coding</h3>
             <p>
               In terms of experience, I have more than a year of experience in
               JavaScript, am proficient in the MERN stack (MongoDB, Express,
@@ -40,7 +40,7 @@ function About() {
 
         <article className="row mt-5">
           <article className="col-12">
-            <h3>Music</h3>
+            <h3 className="neon-pink">Music</h3>
             <p>
               I have always always had a deep love for music, and began drumming
               at the age of 6. I have preformed with many local groups, most
@@ -53,7 +53,7 @@ function About() {
 
         <article className="row mt-5">
           <article className="col-12">
-            <h3>Goals</h3>
+            <h3 className="neon-pink">Goals</h3>
             <p>
               My dream is to one day start my own video game development
               company. I play a wide variety of video games to study different
