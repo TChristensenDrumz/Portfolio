@@ -18,18 +18,102 @@ function TechList() {
   return (
     <div>
       <h3 className="tech-title text-center">Technologies</h3>
-      <img src={JavaScript}/><p className="skill text-center">JavaScript ES6+</p>
-      <img src={ReactJS}/><p className="skill text-center">ReactJS</p>
-      <img src={jQuery}/><p className="skill text-center">jQuery</p>
-      <img src={NodeJS}/><p className="skill text-center">Node.js</p>
-      <img src={Express}/><p className="skill text-center">Express</p>
-      <img src={MongoDB}/><p className="skill text-center">MongoDB</p>
-      <img src={MySQL}/><p className="skill text-center">MySQL</p>
-      <img src={Redux}/><p className="skill text-center">Redux</p>
-      <img src={HTML}/><p className="skill text-center">HTML5</p>
-      <img src={CSS}/><p className="skill text-center">CSS3</p>
-      <img src={Git}/><p className="skill text-center">Git</p>
-      <img src={Handlebars}/><p className="skill text-center">Handlebars</p>
+      <div className="row">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={JavaScript} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">JavaScript ES6+</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={ReactJS} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">ReactJS</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={jQuery} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">jQuery</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={NodeJS} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">Node.js</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={Express} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">Express</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={MongoDB} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">MongoDB</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={MySQL} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">MySQL</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={Redux} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">Redux</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={HTML} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">HTML5</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={CSS} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">CSS3</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={Git} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">Git</p>
+        </div>
+      </div>
+      <div className="row pt-1">
+        <div className="col-5 p-0">
+          <img className="img-fluid float-right" src={Handlebars} />
+        </div>
+        <div className="col-7 pl-1 pt-1">
+          <p className="skill float-left">Handlebars</p>
+        </div>
+      </div>
     </div>
   );
 }
