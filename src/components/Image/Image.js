@@ -3,7 +3,7 @@ import './Image.css'
 
 function Image() {
   return (
-    <div className="float-left pr-3">
+    <div className="float-left pl-5">
       <div><img
         src="https://github.com/TChristensenDrumz/Image-Links/raw/main/Portfolio/terrapinchristensen.jpg"
         className="img-fluid about"
