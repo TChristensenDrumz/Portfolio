@@ -22,8 +22,9 @@ a,
 ul,
 li,
 label,
-input {
-  font-family: "Roboto", sans-serif;
+input,
+textarea {
+  font-family: "Roboto", sans-serif !important;
   color: white;
 }
 
@@ -55,11 +56,6 @@ input {
   padding-bottom: 100px;
 }
 
-.about {
-  width: 300px;
-  height: 300px;
-}
-
 .roboto {
   font-family: "Roboto", sans-serif;
 }
@@ -68,4 +64,20 @@ input {
   background-color: #1a6e7c;
   border-color: #1c4974;
   color: white;
+}
+
+.contact-link {
+  color: #baf0fa;
+}
+
+.contact-link:hover {
+  color: #baf0fa;
+  text-decoration: underline;
+  text-shadow: 0 0 0.25rem #baf0fa;
+}
+
+.pink {
+  color: #fae1fc;
+  text-decoration: underline;
+  text-shadow: 0 0 0.25rem #fae1fc;
 }

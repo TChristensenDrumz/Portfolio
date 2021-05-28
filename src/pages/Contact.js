@@ -53,7 +53,7 @@ function Contact() {
             >
               {errorText}
             </Alert>
-            <h1 className="coffee">Contact</h1>
+            <h1 className="pink">Contact</h1>
             <hr />
             <form className="contact-form" id="form" onSubmit={sendEmail}>
               <div className="form-group mr-5">
@@ -89,7 +89,7 @@ function Contact() {
           </div>
         </div>
         <section className="mt-5">
-          <h3 className="sisal">Connect with LinkedIn!</h3>
+          <h3 className="pink">Connect with LinkedIn!</h3>
           <a
             className="contact-link"
             href="https://www.linkedin.com/in/terrapin-christensen-381a831b8/"
@@ -100,7 +100,7 @@ function Contact() {
           </a>
         </section>
         <section className="mt-5">
-          <h3 className="sisal">GitHub</h3>
+          <h3 className="pink">GitHub</h3>
           <a
             className="contact-link"
             href="https://github.com/TChristensenDrumz"
