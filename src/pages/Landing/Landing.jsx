@@ -19,17 +19,20 @@ function Landing() {
           <div className="teal-text">Terrapin Christensen</div>
           <div>What are you looking for?</div>
         </div>
-        <div className="landing-web">
-          <div>Web Developer</div>
+        <div className="landing-web" onClick={() => history.push("/web")}>
+          <div className="white-block">Web Developer</div>
         </div>
-        <div className="landing-game">
-          <div>Game Developer</div>
+        <div className="landing-game" onClick={() => history.push("/game")}>
+          <div className="white-block">Game Developer</div>
         </div>
-        <div className="landing-product">
-          <div>Product Manager</div>
+        <div
+          className="landing-product"
+          onClick={() => history.push("/product")}
+        >
+          <div className="white-block">Product Manager</div>
         </div>
-        <div className="landing-music">
-          <div>Musician</div>
+        <div className="landing-music" onClick={() => history.push("/music")}>
+          <div className="white-block">Musician</div>
         </div>
       </div>
     </>
