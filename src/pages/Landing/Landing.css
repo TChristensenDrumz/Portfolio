@@ -1,0 +1,44 @@
+.landing-grid {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-areas: "greeting" "web" "game" "product" "music";
+}
+
+.landing-greeting {
+  grid-area: greeting;
+}
+
+.landing-web {
+  grid-area: web;
+}
+
+.landing-game {
+  grid-area: game;
+}
+
+.landing-product {
+  grid-area: product;
+}
+
+.landing-music {
+  grid-area: music;
+}
+
+.landing-greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-web,
+.landing-game,
+.landing-product,
+.landing-music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
