@@ -16,9 +16,19 @@
   background-color: var(--clr-light-a);
 }
 
+.landing-web:hover,
+.landing-web:focus {
+  background-color: var(--clr-light);
+}
+
 .landing-game {
   grid-area: game;
   background-color: var(--clr-medium-a);
+}
+
+.landing-game:hover,
+.landing-game:focus {
+  background-color: var(--clr-medium);
 }
 
 .landing-product {
@@ -26,9 +36,19 @@
   background-color: var(--clr-dark-a);
 }
 
+.landing-product:hover,
+.landing-product:focus {
+  background-color: var(--clr-dark);
+}
+
 .landing-music {
   grid-area: music;
   background-color: var(--clr-darkest-a);
+}
+
+.landing-music:hover,
+.landing-music:focus {
+  background-color: var(--clr-darkest);
 }
 
 .landing-greeting {

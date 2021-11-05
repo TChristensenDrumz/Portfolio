@@ -1,10 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { useHistory } from "react-router";
 
 // Style
 import "./Landing.css";
 
 function Landing() {
+  const history = useHistory();
+
   return (
     <>
       <Helmet>
