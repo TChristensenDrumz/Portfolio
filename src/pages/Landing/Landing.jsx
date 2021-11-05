@@ -13,7 +13,7 @@ function Landing() {
       <div className="landing-grid">
         <div className="landing-greeting">
           <div>Hi, I'm</div>
-          <div>Terrapin Christensen</div>
+          <div className="teal-text">Terrapin Christensen</div>
           <div>What are you looking for?</div>
         </div>
         <div className="landing-web">

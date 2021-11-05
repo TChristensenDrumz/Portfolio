@@ -3,3 +3,7 @@ html {
   scroll-behavior: smooth;
   margin: auto;
 }
+
+.teal-text {
+  color: var(--clr-teal);
+}

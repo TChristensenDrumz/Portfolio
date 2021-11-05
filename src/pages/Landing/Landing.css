@@ -13,18 +13,22 @@
 
 .landing-web {
   grid-area: web;
+  background-color: var(--clr-light-a);
 }
 
 .landing-game {
   grid-area: game;
+  background-color: var(--clr-medium-a);
 }
 
 .landing-product {
   grid-area: product;
+  background-color: var(--clr-dark-a);
 }
 
 .landing-music {
   grid-area: music;
+  background-color: var(--clr-darkest-a);
 }
 
 .landing-greeting {
