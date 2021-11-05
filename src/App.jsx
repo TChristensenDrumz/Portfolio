@@ -20,8 +20,8 @@ function App() {
         <Route exact path="/" component={Landing} />
         <Route exact path="/web" component={WebDeveloper} />
         <Route exact path="/game" component={GameDeveloper} />
-        <Route exact path="product" component={ProductManager} />
-        <Route exact path="music" component={Musician} />
+        <Route exact path="/product" component={ProductManager} />
+        <Route exact path="/music" component={Musician} />
         <Route path="*" component={NotFound} />
       </Switch>
     </Router>
