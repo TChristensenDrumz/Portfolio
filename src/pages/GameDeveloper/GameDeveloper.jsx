@@ -11,7 +11,7 @@ function GameDeveloper() {
   return (
     <>
       <Helmet>
-        <title>Terrapin Christensen | Web Developer</title>
+        <title>Terrapin Christensen | Game Developer</title>
       </Helmet>
       <Layout type="Game"></Layout>
     </>

@@ -11,7 +11,7 @@ function Musician() {
   return (
     <>
       <Helmet>
-        <title>Terrapin Christensen | Web Developer</title>
+        <title>Terrapin Christensen | Musician</title>
       </Helmet>
       <Layout type="Music"></Layout>
     </>

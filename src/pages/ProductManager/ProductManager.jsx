@@ -11,7 +11,7 @@ function ProductManager() {
   return (
     <>
       <Helmet>
-        <title>Terrapin Christensen | Web Developer</title>
+        <title>Terrapin Christensen | Product Manager</title>
       </Helmet>
       <Layout type="Product"></Layout>
     </>
