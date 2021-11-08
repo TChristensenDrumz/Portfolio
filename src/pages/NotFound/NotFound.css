@@ -3,6 +3,37 @@
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.nf-icon {
+  font-size: 6rem;
+  color: rgb(99, 99, 99);
+}
+
+.nf-header {
+  font-size: 4rem;
+  color: rgb(99, 99, 99);
+}
+
+.nf-text {
+  font-size: 2rem;
+  color: rgb(170, 170, 170);
+  padding-bottom: 2rem;
+}
+
+.nf-button {
+  color: rgb(170, 170, 170);
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgb(170, 170, 170);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.nf-button:hover,
+.nf-button:focus {
+  background-color: rgb(170, 170, 170);
+  color: white;
 }
