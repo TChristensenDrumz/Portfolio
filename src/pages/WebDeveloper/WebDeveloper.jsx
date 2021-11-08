@@ -13,7 +13,7 @@ function WebDeveloper() {
       <Helmet>
         <title>Terrapin Christensen | Web Developer</title>
       </Helmet>
-      <Layout></Layout>
+      <Layout type="Web"></Layout>
     </>
   );
 }

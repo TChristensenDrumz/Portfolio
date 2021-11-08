@@ -7,15 +7,17 @@ import Footer from "../components/Footer/Footer";
 // Styling
 import "./Layout.css";
 
-function Layout({ children }) {
+function Layout({ children, type }) {
   return (
-    <div className="layout-grid">
-      <Header />
-      <div className="layout-content">{children}</div>
-      <div className="layout-footer">
-        <Footer />
+    <>
+      <Header type={type} />
+      <div className="layout-grid">
+        <div className="layout-content">{children}</div>
+        <div className="layout-footer">
+          <Footer type={type} />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

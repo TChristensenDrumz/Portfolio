@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+function Footer({ type }) {
   return <div></div>;
 }
 
