@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 // Bootstrap
 import Navbar from "react-bootstrap/Navbar";
@@ -10,6 +10,27 @@ import { Container } from "react-bootstrap";
 import "./Header.css";
 
 function Header({ type }) {
+  const [title, setTitle] = useState("");
+
+  useEffect(() => {
+    switch (type) {
+      case "Web":
+        setTitle("Web Developer");
+        break;
+      case "Game":
+        setTitle("Game Developer");
+        break;
+      case "Product":
+        setTitle("Product Manager");
+        break;
+      case "Music":
+        setTitle("Musician");
+        break;
+      default:
+        return;
+    }
+  }, []);
+
   return (
     <div className="header">
       <Navbar bg="dark" expand="lg">
@@ -19,7 +40,7 @@ function Header({ type }) {
             <Navbar.Brand>TC</Navbar.Brand>
             <Navbar.Text>
               Current Page:{" "}
-              <NavDropdown>
+              <NavDropdown title={title}>
                 <NavDropdown.Item href="/web">Web Developer</NavDropdown.Item>
                 <NavDropdown.Item href="/game">Game Developer</NavDropdown.Item>
                 <NavDropdown.Item href="product">
