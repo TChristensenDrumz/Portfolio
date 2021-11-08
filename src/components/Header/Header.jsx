@@ -37,9 +37,8 @@ function Header({ type }) {
         <Container>
           <Navbar.Toggle aria-controls="layout-navbar" />
           <Navbar.Collapse id="layout-navbar">
-            <Navbar.Brand>TC</Navbar.Brand>
-            <Navbar.Text>
-              Current Page:{" "}
+            <Nav>
+              <Navbar.Brand>TC</Navbar.Brand>
               <NavDropdown title={title}>
                 <NavDropdown.Item href="/web">Web Developer</NavDropdown.Item>
                 <NavDropdown.Item href="/game">Game Developer</NavDropdown.Item>
@@ -48,7 +47,7 @@ function Header({ type }) {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/music">Musician</NavDropdown.Item>
               </NavDropdown>
-            </Navbar.Text>
+            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
