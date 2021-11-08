@@ -15,48 +15,56 @@
   grid-area: web;
   color: var(--clr-light-a);
   background-color: var(--clr-light-a);
+  transition: background-color 0.5s ease, color 0.5s ease, font-size 0.5s ease;
 }
 
 .landing-web:hover,
 .landing-web:focus {
   color: var(--clr-light);
   background-color: var(--clr-light);
+  font-size: 1.7rem;
 }
 
 .landing-game {
   grid-area: game;
   color: var(--clr-medium-a);
   background-color: var(--clr-medium-a);
+  transition: background-color 0.5s ease, color 0.5s ease, font-size 0.5s ease;
 }
 
 .landing-game:hover,
 .landing-game:focus {
   color: var(--clr-medium);
   background-color: var(--clr-medium);
+  font-size: 1.7rem;
 }
 
 .landing-product {
   grid-area: product;
   color: var(--clr-dark-a);
   background-color: var(--clr-dark-a);
+  transition: background-color 0.5s ease, color 0.5s ease, font-size 0.5s ease;
 }
 
 .landing-product:hover,
 .landing-product:focus {
   color: var(--clr-dark);
   background-color: var(--clr-dark);
+  font-size: 1.7rem;
 }
 
 .landing-music {
   grid-area: music;
   color: var(--clr-darkest-a);
   background-color: var(--clr-darkest-a);
+  transition: background-color 0.5s ease, color 0.5s ease, font-size 0.5s ease;
 }
 
 .landing-music:hover,
 .landing-music:focus {
   color: var(--clr-darkest);
   background-color: var(--clr-darkest);
+  font-size: 1.7rem;
 }
 
 .landing-greeting {
