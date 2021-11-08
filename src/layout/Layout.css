@@ -1,0 +1,14 @@
+.layout-grid {
+  display: grid;
+
+  grid-template-rows: minmax(90vh, auto) 10vh;
+  grid-template-areas: "content" "footer";
+}
+
+.layout-content {
+  grid-area: "content";
+}
+
+.layout-footer {
+  grid-area: "footer";
+}
