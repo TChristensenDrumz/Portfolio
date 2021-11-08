@@ -7,6 +7,7 @@ import WebDeveloper from "./pages/WebDeveloper/WebDeveloper";
 import GameDeveloper from "./pages/GameDeveloper/GameDeveloper";
 import ProductManager from "./pages/ProductManager/ProductManager";
 import Musician from "./pages/Musician/Musician";
+import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound/NotFound";
 
 // Styling
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/game" component={GameDeveloper} />
         <Route exact path="/product" component={ProductManager} />
         <Route exact path="/music" component={Musician} />
+        <Route exact pat="/contact" component={Contact} />
         <Route path="*" component={NotFound} />
       </Switch>
     </Router>
