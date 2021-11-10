@@ -27,6 +27,7 @@ function Header({ type }) {
         setTitle("Musician");
         break;
       default:
+        setTitle("Select Page");
         return;
     }
   }, []);
