@@ -1,0 +1,43 @@
+.music {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-icon {
+  font-size: 6rem;
+  color: rgb(0, 0, 0);
+}
+
+.m-header {
+  font-size: 2rem;
+  color: rgb(255, 0, 0);
+  padding-bottom: 1rem;
+}
+
+.m-text {
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.m-pb {
+  padding-bottom: 2rem;
+}
+
+.m-button {
+  color: rgb(255, 0, 0);
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgb(255, 0, 0);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.m-button:hover,
+.m-button:focus {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}

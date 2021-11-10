@@ -1,0 +1,43 @@
+.product-manager {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pm-icon {
+  font-size: 6rem;
+  color: rgb(231, 158, 0);
+}
+
+.pm-header {
+  font-size: 2rem;
+  color: rgb(99, 99, 99);
+}
+
+.pm-pb {
+  padding-bottom: 1rem;
+}
+
+.pm-text {
+  font-size: 1.2rem;
+  color: rgb(170, 170, 170);
+  padding-bottom: 2rem;
+}
+
+.pm-button {
+  color: rgb(231, 158, 0);
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgb(231, 158, 0);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.pm-button:hover,
+.pm-button:focus {
+  background-color: rgb(231, 158, 0);
+  color: white;
+}
