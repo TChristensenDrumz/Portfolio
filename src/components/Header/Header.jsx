@@ -39,15 +39,33 @@ function Header({ type }) {
           <Navbar.Toggle aria-controls="layout-navbar" />
           <Navbar.Collapse id="layout-navbar">
             <Nav>
-              <Navbar.Brand>TC</Navbar.Brand>
-              <NavDropdown title={title}>
-                <NavDropdown.Item href="/web">Web Developer</NavDropdown.Item>
-                <NavDropdown.Item href="/game">Game Developer</NavDropdown.Item>
-                <NavDropdown.Item href="product">
-                  Product Manager
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/music">Musician</NavDropdown.Item>
-              </NavDropdown>
+              <div className="header-logo">
+                <Navbar.Brand>TC</Navbar.Brand>
+              </div>
+              <div className="header-select">
+                <div className="current">Current Page:</div>
+                <NavDropdown title={title}>
+                  <NavDropdown.Item href="/web">Web Developer</NavDropdown.Item>
+                  <NavDropdown.Item href="/game">
+                    Game Developer
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="product">
+                    Product Manager
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/music">Musician</NavDropdown.Item>
+                </NavDropdown>
+              </div>
+              <div className="header-projects">
+                <Nav.Item>Projects</Nav.Item>
+              </div>
+              <div className="header-contact">
+                <Nav.Item>Contact</Nav.Item>
+              </div>
+              <div className="header-download">
+                <Nav.Item>
+                  <a>Download Resume</a>
+                </Nav.Item>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>

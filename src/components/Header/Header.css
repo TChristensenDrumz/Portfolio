@@ -5,4 +5,49 @@
 .navbar {
   width: 100vw;
   height: 8vh;
+  padding: 0 !important;
+}
+
+.navbar .container {
+  padding: 0.5rem 1rem !important;
+  background-color: #343a4059;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: whitesmoke;
+}
+
+.navbar-nav {
+  display: grid !important;
+
+  grid-auto-rows: auto auto auto auto auto;
+  grid-template-areas: "logo" "select" "projects" "contact" "download";
+}
+
+.header-logo {
+  grid-area: logo;
+}
+
+.header-select {
+  grid-area: select;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.header-projects {
+  grid-area: projects;
+}
+
+.header-contact {
+  grid-area: contact;
+}
+
+.header-download {
+  grid-area: download;
+}
+
+.current {
+  padding: 0.5rem 0.5rem 0.5rem 0rem;
 }
