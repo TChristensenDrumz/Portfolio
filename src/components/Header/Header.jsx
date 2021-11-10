@@ -11,6 +11,7 @@ import "./Header.css";
 
 function Header({ type }) {
   const [title, setTitle] = useState("");
+  const [projects, setProjects] = useState("");
 
   useEffect(() => {
     switch (type) {
@@ -30,6 +31,24 @@ function Header({ type }) {
         setTitle("Select Page");
         return;
     }
+
+    switch (type) {
+      case "Web":
+        setProjects("/web/projects");
+        break;
+      case "Game":
+        setProjects("/game/projects");
+        break;
+      case "Product":
+        setProjects("/product/projects");
+        break;
+      case "Music":
+        setProjects("/music/projects");
+        break;
+      default:
+        setProjects("/");
+        return;
+    }
   }, []);
 
   return (
@@ -40,7 +59,7 @@ function Header({ type }) {
           <Navbar.Collapse id="layout-navbar">
             <Nav>
               <div className="header-logo">
-                <Navbar.Brand>TC</Navbar.Brand>
+                <Navbar.Brand href="/">TC</Navbar.Brand>
               </div>
               <div className="header-select">
                 <div className="current">Current Page:</div>
@@ -56,14 +75,18 @@ function Header({ type }) {
                 </NavDropdown>
               </div>
               <div className="header-projects">
-                <Nav.Item>Projects</Nav.Item>
+                <Nav.Item>
+                  <Nav.Link href={projects}>Projects</Nav.Link>
+                </Nav.Item>
               </div>
               <div className="header-contact">
-                <Nav.Item>Contact</Nav.Item>
+                <Nav.Item>
+                  <Nav.Link href="/contact">Contact</Nav.Link>
+                </Nav.Item>
               </div>
               <div className="header-download">
                 <Nav.Item>
-                  <a>Download Resume</a>
+                  <Nav.Link>Download Resume</Nav.Link>
                 </Nav.Item>
               </div>
             </Nav>
