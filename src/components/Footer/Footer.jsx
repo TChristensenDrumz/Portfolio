@@ -3,7 +3,7 @@ import React from "react";
 // Styling
 import "./Footer.css";
 
-function Footer({ type }) {
+function Footer() {
   return <div className="footer"></div>;
 }
 
